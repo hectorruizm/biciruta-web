@@ -1,6 +1,6 @@
 # BiciRuta web
 
-Proyecto de la tienda BiciRuta S.L.
+Proyecto de la tienda BiciRuta S.L. de hector
 
 ## Estructura
 - index.html: estructura y contenido
