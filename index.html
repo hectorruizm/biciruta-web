@@ -3,15 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>BiciRuta</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
-  header { background: #152A1D; color: white; padding: 20px; }
-  nav ul { list-style: none; display: none; padding: 0; }
-  nav ul.abierto { display: block; }
-  .producto { background: white; margin: 10px; padding: 15px; width: 220px; display: inline-block; }
-  .precio { color: #2C7A3F; font-size: 22px; font-weight: bold; }
-  .oferta { color: #bbbbbb; }
-</style>
+<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 <header>
@@ -21,7 +13,7 @@
 </header>
 <main>
   <h1>Bicicletas y accesorios</h1>
-  <div class="producto"><h2>Bici Urbana U100</h2><p class="precio" style="color:#bbbbbb">389,00 €</p><button onclick="anadir('Bici Urbana U100')">Añadir</button></div>
+  <div class="producto"><h2>Bici Urbana U100</h2><p class="precio">389,00 €</p><button onclick="anadir('Bici Urbana U100')">Añadir</button></div>
   <div class="producto"><h2>Casco Urban M</h2><p class="precio oferta">39,90 €</p><button onclick="anadir('Casco Urban M')">Añadir</button></div>
   <div class="producto"><h2>Candado U Pro</h2><p class="precio">29,95 €</p><button onclick="anadir('Candado U Pro')">Añadir</button></div>
   <p>Productos en el carrito: <span id="contador">0</span></p>
